@@ -1,0 +1,271 @@
+2026 NET    13 
+
+    
+
+3D  
+
+SkyLens,   3D  
+
+  2026.07.24
+    
+  , , , 
+
+2026 NET    13     
+Contents  02                                     03
+
+01                                                  
+
+               
+          KOREN    
+             / 
+               
+              
+ 
+                                              2
+  
+
+SkyLens
+
+     3D  
+
+   RGB·  KOREN  Core HPC    3D , 4  AI ·
+       ·3D .
+
+                 KOREN    Core HPC      Edge VM   
+
+RGB  3                    3D  · AI      3D         
+
+  ·  ,   
+
+                                          AI
+
+                          30  3D ·AI    KOREN  Core Edge  
+
+ ·                         ·             ·   
+
+2026 NET    13            3                                   
+   
+
+                       · 3D     ·   
+
+                  3D    
+
+                                                                                       
+
+ 2024                                 5   6  3                                       ··      4
+        1                                                                            SAR      
+                                      · AI  
+                                                                                           5
+                                   AI                                                3DGS·TransUNet  ·  
+
+ 2025                             5000                                      4,623        6 7
+    2                             40 00
+                                  30 00                              3,628         4 KISTI, ·       , KISTI  73  , 2024.
+1 MBC,      ...   2  , 2024.2.1.  2000                                             5 DroneAudioset Gupta et al., NeurIPS 2025
+2    ,       , 2025.              100 0   738   1,401  2,111  2,806                6 3D Gaussian Splatting Kerbl et al., SIGGRAPH 2023
+                                                                                   7 TransUNet Chen et al., 2021
+                                       0  2019  2020   2021   2022
+
+                                                                     2023   2024
+
+                                  3 YTN,   , 3  2.7  , 2025.2.26.
+
+  KOREN   3D , · AI      
+
+2026 NET    13                                         4                             
+    
+
+        ·AI ·3D ·  4   
+
+Core Edge       3D  
+
+Core HPC ·   AI  3D                                             Edge VM ·    
+
+      3D                    4 AI                     2D 3D            3D 
+
+     GLO              RGB 3ch  1ch Early       3DGS  Depth Map   .splat  rsync 
+   MAP   gsplat         Fusion TransUNet         ,                 ,   Edge VM
+   3DGS GPU  Open3D                                                Three.js   
+   ICP                   ·   
+                                                 
+ 30   
+
+ :    · 3D   · AI   · 2D 3D   · Edge 3D     
+
+2026 NET    13                             5                      
+    
+
+                  ·AI ·3D ·  4   
+
+        Core Edge       3D  
+
+2026 NET    13   6                   
+ 
+
+                                  3DGS · 
+
+                   3D  
+
+2026 NET    13   7                           
+
+
+                     30   ,
+
+                         
+
+                                                          SkyLens
+
+                                          2 3    
+                       · ·               KOREN   · · QoS
+                     2D                  3DGS   3D 
+                     RGB/                RGB  4  · 
+     ·                2D                 2D 3D  ·  3D 
+                       ·                  · 30   
+                                         Core HPC ·AI Edge VM  
+                     2D                  3D   ·  
+                  
+                  
+
+                  
+
+2026 NET    13       8                     
+     
+
+                                                      1                  GStreamer ·
+                                                                              FFmpeg
+                                        · 3                  RTSP/SRT  
+                      RGB    ·                                
+
+                                         Core HPC     2 3D               3D Gaussian
+                KOREN   GPU  · 3DGS  AI                                       Splatting
+
+KOREN                                    Edge VM      3 AI   4  ·        PyTorch ·
+                                ·                                        TensorRT
+
+                                                      4 2D 3D            Depth Map ·
+                                3D   ·                                        Raycast
+
+2026 NET    13                                        5 3D      ·           Three.js ·
+                                                                         WebSocket
+
+                                                      6 WebRTC  ··       WebRTC
+
+                                                   9                       
+KOREN    
+
+                   ·Core Edge    
+
+                 KOREN     
+
+                                        1   
+
+                                       ·  RGB  10Gbps   
+                                       ·  1 50 100Mbps 3  Mbps   
+
+                                        2 Core Edge  
+
+                                       · 3D ·AI   KOREN Edge VM  
+                                       · 3DGS    MB     , Edge  
+
+                                        3 KOREN  
+
+                                       · Core HPC:  GPU  3D  AI 
+                                       · Edge VM:     VM , 3D  
+
+                  SkyLens KOREN         4  
+
+2026 NET    13                     10  · Core Edge 3D     ms    
+                                       ·  QoS      
+
+                                                                                                                       
+   / 
+
+                            
+
+                        
+
+                                                                
+
+  :      KOREN                  KOREN  HPC                  
+    /                           Edge  End to End          
+
+ 3D : 3D Gaussian Splatting   :     30                  3D 
+    PSNR/SSIM                                          /   
+
+ AI : /   mIoU,
+   F1 score 
+
+ 2D 3D :     
+     
+
+2026 NET    13               11                       
+     
+
+v                 v      
+
+                                          7  8  9  10  11
+
+ ·  ·             KOREN ·  
+ · KOREN ·
+ ·                3DGS   GPU  
+
+                  RGB  4 AI TensorRT
+
+ · 3DGS           Depth Map  2D 3D  
+ ·  · 
+                  Edge VM 3D   
+ 
+                    · 
+ · 2D 3D  
+ · Edge VM 3D      ··  
+ ·  
+                  8 ·3D v1 9 AI·2D 3D v1·  11  · · ·
+ 
+
+ · RGB  
+ · AI  ·
+ · TensorRT  
+
+2026 NET    13                        12                 
+    
+
+                                       ·· 
+
+                          3D   
+
+01                                           
+                                              
+    ·  3D ·                                     
+    ·    30     
+
+02     
+
+    · ·  RGB     
+    · AI     , 3D    
+
+03    
+
+    · 2D   3D  ··  
+    ·  ·      
+
+2026 NET    13         13                           
+   
+
+v                                                  v  
+
+                                                   · 1,349,000  67.5
+                                        280,000                 23.1
+     7                     280,000 1                461,400      9.5
+     11
+·                                                   189,600
+
+                           1,069,000 1  1,069,000
+
+   KTX                     47,400 4     189,600
+
+                           23,070 20    461,400
+                  
+                                        2,000,000
+
+2026 NET    13               14                                   
+

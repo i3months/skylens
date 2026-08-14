@@ -1,0 +1,944 @@
+ HPC    
+          -   -
+
+  (TTA)   
+(TTA)        ,     .
+
+                                                            - 1 -
+                                  
+
+1.    ............................................................ 1p
+    1.1  ........................................................................ 1p
+    1.2   .................................................................. 1p
+    1.3   ........................................................................ 1p
+
+2.  ........................................................................... 2p
+3.  ........................................................................... 4p
+
+    3.1   .................................................................. 4p
+            3.1.1   .................................................................. 4p
+
+                   3.1.1.1   .................................................................. 6p
+
+            3.1.2   .................................................................. 7p
+
+                   3.1.2.1     ...................................................... 7p
+                   3.1.2.2   .................................................................. 8p
+
+    3.2   ............................................................... 9p
+    3.3   .................................................................. 10p
+    3.4 Python  ............................................................ 10p
+4. VM  ..................................................................... 14p
+    4.1 VM  ........................................................................ 14p
+
+            4.1.1  VM  .................................................................. 14p
+
+                   4.1.1.1     ................................................... 16p
+
+            4.1.2 VM  ........................................................................ 18p
+
+                   4.1.2.1 VM    ............................................................ 18p
+                   4.1.2.2 VMware Horizon Client    .............................. 18p
+                   4.1.2.3     ......................................................... 19p
+
+            4.1.3 VM  ........................................................................ 19p
+            4.1.4 VM  .................................................................. 20p
+    4.2 VM  ..................................................................... 22p
+    4.3 VM  ........................................................................ 23p
+    4.4    ................................................... 23p
+            4.4.1  ........................................................................ 23p
+            4.4.2  ..................................................................... 23p
+
+5.  ..................................................................... 24p
+    5.1   ........................................................................ 24p
+
+            5.1.1 HPC   ............................................................... 24p
+
+                   5.1.1.1  ........................................................................ 26p
+                   5.1.1.2  ........................................................................ 27p
+                   5.1.1.3  ........................................................................ 28p
+
+            5.1.2  S/W  ............................................................... 28p
+    5.2  ........................................................................ 29p
+
+6.   ..................................................................... 30p
+7.   .................................................................. 31p
+1.   
+
+1.1 
+
+HPC         .
+
+         OS                                Windows, Linux
+                                       IE 9 ,  
+
+1.2  
+
+       ,   ,    
+          .
+
+                                       
+
+                Launcher                
+
+                ProxyCap                 
+
+                Enterm                   
+
+X-GUI           Cygwinx                 GUI 
+
+FTP             winscp                  /
+
+Linux Desktop     VNCviewer               
+VMware Horizon  VMware Horizon          VM   
+
+                    Client
+
+   " -"      .
+
+1.3                                 http://cloud.openhpc.or.kr
+                                E-mail    
+              
+           
+
+                                - 1 -
+2 
+
+      ,        .
+
+      .
+
+         
+
+       .
+1 -        .
+
+     -  , ,    .
+
+     Winscp    .
+2 -     ,    
+
+        .
+
+     CygwinX    .
+3 - CygwinX    , X-window  
+
+         .
+     -     ,    .
+
+  - 2 -
+         
+
+4     .
+     -   `5'       .
+
+5       .
+
+6    .
+     -  , , , ,     .
+
+7 VMware  VM   .
+     - VM , , , ,     .
+
+        .
+8 - mpi         .
+
+     -          .
+
+9  ,  ,     .
+
+10     , Q&A     .
+
+11      .
+
+  - 3 -
+3 
+
+         /    .
+
+3.1  
+
+           .
+
+3.1.1  
+
+         .   OS
+    CentOS, Ubuntu.
+        .
+
+                                                            - 4 -
+     .
+
+                                       
+
+           HOSTNAME .
+         :      .
+         :      .
+
+                  .
+              .
+               ,  
+         OS CentOS, Ubuntu .
+   CPU      .
+         CPU Core   CPU  ,
+         GPU   GPU   .
+   GPU 
+           CPU .
+
+           GPU .
+         1    2   .
+                
+         . "3.1.1.1  " 
+              .
+
+         :    ,  
+
+               .
+
+              .
+           Python     
+         . "5 Python " 
+
+      ,    
+ .       .
+  5  , 5      
+
+       .
+
+         - 5 -
+3.1.1.1  
+              
+     .       1    ,
+      .
+
+     .
+
+                                    
+
+        HOSTNAME ,   
+       HOSTNAME  "HOSTNAME-"  
+      .
+      ) HOSTNAME Test 5    HOSTNAME
+      Test-1, Test-2, Test-3, Test-4, Test-5 .
+            , 
+       PBS Torque   .
+
+        - 6 -
+3.1.2  
+
+     ,    .
+3.1.2.1    
+
+         ,    
+     .
+
+          ,   
+    ,     .
+
+          ,  
+     "gcsudo"  . "gcsudo"   root 
+      ,       rpm  root 
+      .
+
+                                                            - 7 -
+3.1.2.2  
+          .   
+   ,         . 
+   Tar  ,    .
+          .
+
+      ""        .
+           .
+                  
+
+              ,   .
+3.1.2.3    
+
+       ,     .
+   (:   10 Core -> 20 Core )
+         , "Rerun"  ,  
+           .
+
+    Rerun       .     
+         .       .
+
+                                                            - 8 -
+3.2  
+
+                
+    .          
+    .
+
+        .
+
+     .
+
+                                    
+
+ Tar     Tar  .   Tar 
+             .
+           .
+     
+           ,   
+         .
+   
+
+   ,        
+,   "My:"     .
+
+       - 9 -
+3.3  
+
+        . " "   
+       .       .
+
+3.4 Python 
+
+      python2.7 .   python   
+      (yum ,apt-get)    . , 
+    python     . python    
+     .
+
+                                                            - 10 -
+Python     " "     
+,      .
+
+                                       
+
+          Python   .
+ Python     Python  .
+ 
+             Python  2.7  3.6,  
+ 
+                .   Python 
+              Q&A   .
+ 
+                
+             .
+              .
+
+            pip install      
+
+             .  "==version"
+          .      ""  
+
+          .
+
+       .  
+
+                   .
+         .   
+
+                  .
+
+                                                     - 11 -
+          .
+
+          , 
+        .
+
+            
+       .
+
+  Python        
+ .        , 
+ .       . "  
+ "      ,   .
+
+                                                       - 12 -
+          
+               .
+               
+       ,       
+       .
+      1.  :      
+      2.  :     
+
+1, 2
+
+           "3.4 Python  " " 
+         " 
+
+3       .   
+           .
+
+                                               - 13 -
+4 VM 
+
+    VM    VMware      .
+    VM       ,    
+       .
+
+        CLI    ,    
+       . (4.4    )
+
+4.1 VM 
+
+    VM       .
+
+4.1.1  VM 
+
+    VM .  VM      .
+
+                                                            - 14 -
+     .
+
+                                    
+
+ VM   VM  HOSTNAME .
+VM    VM   .
+
+        VM  VM    
+          "4.1.1.1    "
+      
+       VM
+      -   VM  ,   VM 
+
+        .
+       VM
+
+      -   VM  ,   VM 
+
+        .
+      - 2   PBS Torque     .
+      - 2 VM      VM
+
+        Passwordless authentication    
+
+        .
+
+             VM 
+
+          ,  VM    VM  
+
+           .
+
+     , VM     
+.     VM  .
+  10~15  , 10~15    
+
+         .
+
+        - 15 -
+4.1.1.1    
+
+      . HPC   
+
+OS Windows 10, Windows Server 2016/2019, Centos 6.0/7.0, Ubuntu 16.04/18.04
+
+,  OS      .  
+
+       .
+
+OS               CPU  GPU    GPU GPU GPU   
+
+                            8-      -  - - 10G NIC
+
+                            8 vGPU NVIDIA T4 4GB 1 10G NIC
+
+                            16 -    -  - - 10G NIC
+
+win10 Xeon 20 - - - - 10G NIC 16 vGPU NVIDIA T4 4GB 1 10G NIC
+win server 2016 E5-2699v4 24 -
+win server 2019                     -  - - 10G NIC
+
+                            24 vGPU NVIDIA T4 4GB 1 10G NIC
+
+                            40 -    -  - - 10G NIC
+
+                            40 vGPU NVIDIA T4 4GB 1 10G NIC
+                 Xeon 20 -
+                 Gold 6140          -  - - 10G NIC
+
+                            8-      -  - - 10G NIC
+
+                            8 vGPU NVIDIA T4 4GB 1 10G NIC
+
+                            12 pGPU NVIDIA P100 12GB 1 10G NIC
+
+                            16 -    -  - - 10G NIC
+
+                            16 vGPU NVIDIA T4 4GB 1 10G NIC
+
+                   Xeon 20 pGPU NVIDIA P100 12GB 1 10G NIC 20 - - - - 10G NIC
+                 E5-2699v4
+
+                           20 pGPU NVIDIA P100 12GB 2 10G NIC
+
+CentOS 6.0                  24 -    -  - - 10G NIC
+
+                            24 vGPU NVIDIA T4 4GB 1 10G NIC
+
+                            40 -    -  - - 10G NIC
+
+                            40 vGPU NVIDIA T4 4GB 1 10G NIC
+
+                            40 pGPU NVIDIA P100 12GB 2 10G NIC
+
+                            12 pGPU NVIDIA V100 16GB 1 10G NIC
+
+                  Xeon 16 pGPU NVIDIA V100 16GB 2 10G NIC 16 pGPU NVIDIA V100 16GB 1 10G NIC-
+                 Gold 6140
+                            20 -       - - 10G NIC
+
+                            32 pGPU NVIDIA V100 16GB 2 10G NIC
+
+ CentOS 6.0  Infiniband    .
+
+                            - 16 -
+OS            CPU  GPU    GPU GPU GPU   
+              8-      -  - - 10G NIC
+CentOS 7.0
+Ubuntu 16.04  8 vGPU NVIDIA T4 4GB 1 10G NIC
+Ubuntu 18.04
+              12 pGPU NVIDIA P100 12GB 1 10G NIC
+
+              12 pGPU NVIDIA P100 12GB 1 1506GGNIBIC
+
+              16 -    -  - - 10G NIC
+
+              16 vGPU NVIDIA T4 4GB 1 10G NIC
+
+              20 -    -  - - 10G NIC
+
+              20 -    -  - - 1506GGNIBIC
+
+                Xeon 20 pGPU NVIDIA P100 12GB 1 10G NIC
+              E5-2699v4 20 pGPU NVIDIA P100 12GB 1 1506GGNIBIC
+
+              20 pGPU NVIDIA P100 12GB 2 10G NIC
+
+              20 pGPU NVIDIA P100 12GB 2 1506GGNIBIC
+
+              24 -    -  - - 10G NIC
+
+              24 vGPU NVIDIA T4 4GB 1 10G NIC
+
+              40 -    -  - - 10G NIC
+
+              40 vGPU NVIDIA T4 4GB 1 10G NIC
+
+              40 pGPU NVIDIA P100 12GB 2 10G NIC
+
+              40 pGPU NVIDIA P100 12GB 2 1506GGNIBIC
+
+              12 pGPU NVIDIA V100 16GB 1 10G NIC
+
+              12 pGPU NVIDIA V100 16GB 1 1506GGNIBIC
+
+              16 pGPU NVIDIA V100 16GB 1 10G NIC
+
+              16 pGPU NVIDIA V100 16GB 1 1506GGNIBIC
+
+               Xeon 16 pGPU NVIDIA V100 16GB 2 10G NIC
+              Gold 6140 16 pGPU NVIDIA V100 16GB 2 1506GGNIBIC
+
+              20 -    -  - - 10G NIC
+
+              20 -    -  - - 1506GGNIBIC
+
+              32 pGPU NVIDIA V100 16GB 2 10G NIC
+
+              32 pGPU NVIDIA V100 16GB 2 1506GGNIBIC
+
+  OS        .
+
+              - 17 -
+4.1.2 VM 
+
+    VM  , VM      . VM  
+       2  ,   OS  
+   .
+
+4.1.2.1 VM   
+   VM      ,    
+    .
+
+          
+
+1 VMware Horizon Client      
+     .
+
+2 Enterm      .
+
+         OS  .
+
+4.1.2.2 Vmware Horizon Client   
+      Horizon Client         .
+
+     , sudo       .
+
+  - 18 -
+4.1.2.3    
+             .   
+
+   , sudo       .
+
+4.1.3 VM 
+
+   VM         .   
+    VM   .
+
+          
+  VM .
+  VM .
+  VM .
+  VM  .
+   VM  .
+   VM GPU pGPU, VM   IB
+
+     VM    .
+
+  - 19 -
+4.1.4 VM                       
+                       .
+   Horizen Client    
+          
+   - 
+
+- 
+
+    - 20 -
+            .
+"Copy Link"          .
+
+                                                          - 21 -
+          .
+
+4.2 VM 
+
+    VM     VM . VM  
+     VM    .
+
+     VM  VM "My:"    
+   .
+
+                                                            - 22 -
+4.3 VM 
+
+      VM  . "VM "   VM  
+   . VM      .
+
+4.4   
+
+4.4.1 
+
+  VM       .  
+ " "  "CLI "    .
+
+ "CLI "          
+  ,  " CLI  VM,   " 
+    . (    .)
+
+          .
+
+           
+   CentOS  : proxychains-ng
+        : yum install -y proxychains-ng
+   Ubuntu  : proxychains4
+        : apt get install -y proxychains4
+
+  CLI  Windows   ProxyCap
+  .
+
+4.4.2 
+
+      VM 10000~15000      ,  
+        .  ssh    .
+
+                             
+        VM SSH    (ex: 11000)
+1
+
+2 Client(Linux)  CLI    Client(Windows)  
+
+3 Client(Linux) ./hirun_cent7 -u $ID -p $PW -c `ssh -p 11000 $ID@$IP` Client(Windows)  SSH  11000  
+
+   10000~15000  .
+
+        - 23 -
+5 
+
+         MPI Batch    
+      .          
+         MPI  Batch     .
+              
+
+               .
+
+5.1  
+5.1.1 HPC  
+
+       HPC    , Batch   
+   .
+
+    HPC       ,    
+     .
+
+                                                            - 24 -
+ 
+
+         .     
+               
+
+       .
+
+ 1
+
+                 
+
+      .
+
+ 2 S/W  .    ,  
+           .
+
+ 3   .       
+
+        .
+
+ 4   .     
+              .
+
+        . CPU   GPU    
+
+ 5 ,       Batch
+               
+
+       .
+ 6   Python  .
+ 7 Batch   . "4.1.1.1 " 
+
+ 8 Batch   . "4.1.1.2 " 
+ 9 Batch      ."4.1.1.3 " 
+10      .
+
+                                                  - 25 -
+5.1.1.1 
+
+   HPC Batch       .    
+   ,      .
+
+                                       
+
+           ,  , 
+
+         PC    .
+
+ MPI    3 DMP, SMP, SERIAL    .
+       1. DMP :      CPU  GPU MPI  
+ CPU 
+              .
+
+       2. SMP :     1  1GPU 
+GPU           Batch   .   (1 X  CPU
+              )  (1 X  GPU ).
+              SMP MPI    .
+
+       3. SERIAL : 1  1GPU  .  SERIAL 
+
+                    SMP     
+                 .
+
+        3 MPI    .
+       1. OPENMPI-GCC : GCC  OPENMPI.
+       2. OPENMPI-INTEL : ICC( )  OPENMPI.
+
+       3. INTEL-MPI : INTEL MPI  .
+         (Intel(R) MPI Library for Linux* OS, Version 2018 Update 1 Build 20171011)
+
+         CPU  .     
+        .
+       1. DMP :  CPU   .
+       2. SMP :  CPU    .
+       3. SERIAL : CPU  1 .
+            E-mail .
+
+       GPU   . GPU  , HPC  
+
+        "-GPU "   . GPU
+           GPU   GPU 
+
+         .
+
+       - 26 -
+                                         
+
+GPU Card   GPU  . NVIDIA Tesla P100 12GB, NVIDIA Tesla
+
+          V100 16GB   GPU   .
+
+GPU         GPU .   2 GPU 
+  GPU
+           .
+ 
+           GPU     .
+
+              .
+
+5.1.1.2 
+
+   HPC Batch       .    ,
+        .
+
+          CPU  . 
+          1. : MPI     .
+  CPU     2. :   MPI     
+
+           .
+            200core     44-44-44-44-24  
+                  44-20-20-44-14-44-14   
+              
+  
+          3. GPUMPI :  GPU   ,  
+ 
+                       .
+
+X-GUI            .
+              ID ,  ID 
+
+             .
+
+              .   
+             .
+              .  core   
+            .
+            X window    .
+
+          - 27 -
+                                  
+
+        .
+   ex) 2010 1202 00 00 00 -> 201212020000.00
+       .  PC  
+
+     .
+
+5.1.1.3 
+
+   HPC Batch         . 
+       ""        .
+
+                
+           .
+
+5.1.2  S/W 
+
+    S/W            ,
+   Batch    . HPC    ,  
+     S/W  .
+
+                                                            - 28 -
+5.2  
+
+             . -
+   -  ID     .
+
+     .
+
+                                      
+
+            ID .
+            ID .    
+ ID
+        .
+          .
+           .    .
+        1.  :     .
+   S/W
+                     .
+        2.  :      .
+        3.  :     .
+   CPU  4.  :       .
+   GPU  5.  :     .
+        6.  :      . 
+ 
+                 , ,     .
+             . HPC   
+        "HPC"   S/W    
+
+           S/W .
+
+           . [+x]    
+         +x   .   
+             .
+          CPU  .
+
+          GPU .
+
+           .
+                
+        .
+          .
+
+        - 29 -
+6 
+
+6.1 
+
+       ,  , E-mail    .
+
+6.2  
+
+       .  ,   1 
+   . (8 )
+
+6.3  
+
+   HPC          .
+
+6.4 
+
+         .
+
+6.5 
+
+         .
+
+6.6 Q&A
+
+          .  Q&A   
+   .
+
+6.7  
+
+       .
+
+                                                            - 30 -
+7  
+
+7.1   VM   
+
+     VM        
+   .
+           .
+
+7.2   VM      
+
+  VM        .  
+
+      gcsudo()  sudo(VM)  
+
+    .
+
+                                         
+
+    ifconfig    (CentOS) gcsudo yum install -y net-tools
+                (Ubuntu) gcsudo apt-get install -y net-tools
+      vim       (CentOS) gcsudo yum install -y vim
+    systemctl   (Ubuntu) gcsudo apt-get install -y vim
+                (CentOS) gcsudo yum install -y systemd
+      gcc       (Ubuntu) gcsudo apt-get install -y systemd
+                (CentOS) gcsudo yum groupinstall -y "Development Tools"
+  mount -t nfs  (Ubuntu) gcsudo apt-get install -y build-essential
+                (CentOS) gcsudo yum install -y nfs-utils
+                (Ubuntu) gcsudo apt-get install -y nfs-common
+
+7.3    
+
+       VM   ,   Proxy
+   Cap Enable    Enable    .
+
+ ProxyCap Enable         .
+
+                - 31 -
+

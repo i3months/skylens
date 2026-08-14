@@ -1,0 +1,445 @@
+HPC    
+ SW VM   
+
+           Version 0.2
+           (2021.1.11)
+
+           
+           HPC  
+
+                                
+
+                                         1
+
+
+   HPC                                   3
+
+         winVM   SW                      4
+         HPC   &                         5
+          IP                             6
+
+   HPC                                   7
+
+         HPC                             8
+                                         9
+         ProxyCap                        10
+         windows VM(Virtual Machine)     11
+                                         19
+
+   winVM   SW                            22
+
+         RNTier Agent  SW                23
+         Midas NFX & MeshFree            24
+         DAFUL                           27
+         MAPS-3D                         28
+         AFDEX                           29
+         PIAnO                           30
+         ANSYS Mechanical CFD            32
+          SW License                     37
+
+                                                           2
+HPC      
+
+      winVM   SW  
+      HPC   &   
+       IP      
+
+                                                                                                                                                     3
+winVM   SW  
+
+       HPC      ( SW)
+
+               1.  (http://openhpc.or.kr/)
+               2. Cloud System (https://cloud.openhpc.or.kr/)
+               3.   
+               4. winVM 
+               5. windows license (   )
+               6.  SW license ( SW )
+               7. SW  (RNTier Agent )
+
+                                                                                                                                                               4
+HPC   &                                       
+
+       HPC  
+            · http://openhpc.or.kr/
+            ·    
+            · IP   
+
+       HPC    
+            · https://cloud.openhpc.or.kr/
+            · HPC    SW 
+
+http://openhpc.or.kr/                           https://cloud.openhpc.or.kr/  5
+ IP      
+
+       HPC(http://openhpc.or.kr/) >>> 
+
+                                                                                    
+                                                                                                         6
+  IP 
+
+      ·  IP  
+      ·  " IP "   IP  
+      ·   2 IP  (3  IP    )
+
+   
+
+      ·          
+      ·  3    
+HPC      
+
+      HPC     
+            
+      ProxyCap      
+      windows VM(Virtual Machine)   
+          
+
+                                                                                                                                                     7
+HPC      
+
+       https://cloud.openhpc.or.kr/ 
+            IP    
+        IP   (http://openhpc.or.kr/)
+
+                                   ID/PW 
+
+                                                                                                                                                               8
+                                                           
+
+          :   >                                                             9
+             
+        VM  
+
+                    
+                                                         
+ProxyCap      
+
+ ProxyCap    
+
+ ProxyCap     ProxyCap             
+                                      
+ ProxyCap      
+
+  ·    "  "    
+
+ ProxyCap      
+
+  · ProxyCap Status and Logs 
+
+  · ProxyCap Configuration 
+
+ ProxyCap      
+
+  ·  ProxyCap   
+
+  · ProxyCap  
+
+  · ProxyCap                   
+
+
+
+                                        10
+windows VM   ( SW VM  )
+
+        > VM 
+        VM  :  VM  
+
+                                                                                                                                                              11
+windows VM   ( SW VM )
+
+       VM  > VM  >  VM 
+         VM       VM 
+         VM   10   
+
+                                                                                      VM  
+                                                                                                     VM   ( SW   )
+                                                                                                                                                                  VM  
+
+                                                                 VM   (    `1' )
+
+                                                                                                                                                              12
+windows VM   ( SW VM )
+
+                                                                               VM   
+                                                                                                     
+
+                                                                 
+
+                                                                                                                                                              13
+windows VM   ( SW VM   )
+
+       VM     
+
+VM        VM  
+
+VM    :                   VM    : 
+
+                          14
+windows VM   ( SW VM  )
+
+             VM   :     
+VM    VM   
+
+                          VM   : `'
+
+                                             15
+windows VM   
+  ( SW VM )
+
+       VM   () 
+       VM      1~2  
+         windows    
+
+               VM  
+
+                                                                VM 
+
+VM   
+
+                                                                     1~2 (  )  windows VM  open
+
+                                                                     16
+windows VM   
+  ( VM  )
+
+       VM  > VM 
+         VM 
+          VM 
+
+                   VM  
+                    
+
+                                                                  17
+windows VM   ( VM  )
+
+       VM  > VM 
+         VM  
+        VM     
+
+                                                                                                                                                              18
+    
+
+           
+        (VM)  / 
+
+             · PC  
+             ·   VM
+
+                     HPC Innovation Hub
+                       Cloud System
+
+  PC
+
+   VM                                                                                winVM  19
+       
+
+ VM  / 
+      
+
+                                                                                  
+    
+
+           
+        (VM)  / 
+
+             · PC  
+             ·   VM
+
+                                                              FTP 
+
+                                                                                                                                                              20
+    
+
+           
+        (VM)  / 
+
+             · PC  
+             ·   VM
+
+                                                                                                                                                              21
+winVM   SW                  
+
+      RNTier Agent  SW 
+      Midas NFX & MeshFree
+      DAFUL
+      MAPS-3D
+      AFDEX
+      PIAnO
+      Ansys Mechanical CFD
+        SW License 
+
+                              22
+RNTier Agent  SW 
+
+RNTier Agent
+
+ SW    
+
+ SW license      SW RNTier Agent   
+
+· Midas NFX & MeshFree   SW  
+· DAFUL                 
+· MAPS-3D
+· AFDEX
+· PIAnO
+
+ Ansys SW  RNTier Agent WorkBench Fluent   
+    CFX   SW ">ANSYS 2019 R3"  SW  
+
+  SW license 2(Ansys HPC pack 3)
+
+                                                                                                                                            23
+Midas NFX & MeshFree                                      VM  
+                                                          VM 
+                                            Midas NFX  
+                                             VM                     24
+
+                                 RNTier Agent 
+                                 SW
+Midas NFX  ( VM   )
+
+       >>
+       (FLEXnet) 
+        swlicense   
+
+                                                                                                                                                              25
+Midas MeshFree  ( VM   )
+
+       > 
+       Flex Net 
+        swlicense   
+
+                                                                                                                                                              26
+DAFUL
+
+       DAFUL  
+        VM 
+
+       RNTier Agent    VM  
+       SW              VM 
+
+                                 27
+MAPS-3D
+
+         MAPS-3D  
+          VM 
+
+         RNTier Agent    VM  
+         SW              VM 
+
+                                   28
+AFDEX
+
+       AFDEX  
+        VM 
+
+       RNTier Agent    VM  
+       SW              VM 
+
+                                 29
+PIAnO
+
+       PIAnO  
+        VM 
+
+       RNTier Agent    VM  
+       SW              VM 
+
+                                 30
+PIAnO  ( VM   )
+
+       >PIDOTECH>License Console
+       Add Floating License>Add License Server
+       Host name or IP swlicense   OK
+
+                                                                                                                                                              31
+ANSYS Mechanical CFD                                                                            VM  
+                                                                                                VM 
+                                            ANSYS  
+                                             VM      SW  
+
+                                 RNTier Agent                                                        32
+                                 SW
+ANSYS Mechanical CFD
+
+       >ANSYS 2019 R3
+            
+
+                                                                                                                                                              33
+ANSYS Mechanical CFD
+
+        winVM  40 CPU core 
+       40 core         winVM 
+         winVM "VM  + "-"  
+
+                                                winVM  
+
+         winVM   Parallel     
+
+                                                                                                                                                              34
+ANSYS Mechanical CFD
+
+       Main node  winVM  sub node  winVM  
+          
+
+       Machine Names  winVM  
+             
+
+                                                                                                                                  
+
+                                               winVM  
+
+                                                                                                                                                              35
+ANSYS Mechanical CFD
+
+       Parallel     core    
+
+       Parallel  Ansys HPC Pack License 
+            · ~8core -> HPC Pack 1 
+            · 9~32core -> HPC Pack 2 
+            · 33~128core -> HPC Pack 3 
+
+        HPC Pack License 3 
+         HPC Pack License 3      Parallel   36
+ SW License (2021.01.11. )
+
+ Windows 10  20
+
+ Midas NFX   2
+
+ Midas MeshFree 2
+
+ DAFUL       2
+
+ MAPS-3D     2
+
+ AFDEX       2
+
+ PIAnO       2
+
+ Ansys SW    2
+
+ Ansys HPC Pack 3
+
+ SW License         License 
+       SW           
+     
+
+ Windows 10 license   VM    
+  winVM      license  
+
+                              37
+                              .
+
+   VM     SW      
+  .  SW VM       .
+
+                                                                                                         
+                                                                                                          HPC  
+
+                                                                                                                              
+                                                                                                                  010-5111-1096
+                                                                                                                  sajh99@tta.or.kr
+
+                                                                                                                                                      38
+

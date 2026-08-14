@@ -1,0 +1,213 @@
+HPC  
+ SW VM   
+
+            Version 0.1
+           (2020.10.19)
+
+           
+            HPC  
+
+                                
+
+                                         1
+
+
+   VM 
+
+                            3
+
+   VM                       4
+
+   VM                       10
+
+   VM                       11
+
+    SW
+
+   1. Midas NFX & MeshFree  12
+
+   2. DAFUL                 15
+
+   3. MAPS-3D               16
+
+   4. AFDEX                 17
+
+   5. PIAnO                 18
+
+   6. ANSYS Mechanical CFD  20
+
+                                2
+                                                           
+
+          :   >                                                             3
+             
+        VM  
+
+                    
+                                                         
+ SW VM  
+
+        > VM 
+        VM  :  VM  
+
+                                                                                                                                                               4
+ SW VM 
+
+       VM  > VM  >  VM 
+         VM       VM 
+         VM   10   
+
+                                                                                      VM  
+                                                                                                     VM   ( SW   )
+                                                                                                                                                                  VM  
+
+                                                                 VM   (    `1' )
+
+                                                                                                                                                               5
+ SW VM 
+
+          VM   
+                                
+
+            
+
+                                                                                                                 6
+ SW VM    (VM     )
+
+VM        VM  
+
+VM    :         VM    : 
+
+                     7
+ SW VM  
+
+                                     VM   :     
+                        VM    VM   
+
+                                                  VM   : `'
+
+                                                                       8
+ SW VM 
+
+       VM   () 
+       VM      1~2  
+
+                                                                VM 
+
+VM   
+
+                                                                     1~2 (  )  windows VM  open
+
+                                                                     9
+ VM  
+
+       VM  > VM 
+         VM 
+          VM 
+
+                   VM  
+                    
+
+                                                                  10
+ VM  
+
+       VM  > VM 
+         VM  
+        VM     
+
+                                                                                                                                                              11
+Midas NFX & MeshFree
+
+                                            Midas NFX  
+                                             VM 
+
+                                                          VM  
+                                                          VM 
+
+                                                                    12
+Midas NFX  ( VM   )
+
+       >>
+       (FLEXnet) 
+        swlicense   
+
+                                                                                                                                                              13
+Midas MeshFree  ( VM   )
+
+       > 
+       Flex Net 
+        swlicense   
+
+                                                                                                                                                              14
+DAFUL
+
+       DAFUL  
+        VM 
+
+                 VM  
+                 VM 
+
+                           15
+MAPS-3D
+
+         MAPS-3D  
+          VM 
+
+                     VM  
+                     VM 
+
+                               16
+AFDEX
+
+       AFDEX  
+        VM 
+
+                 VM  
+                 VM 
+
+                           17
+PIAnO
+
+       PIAnO  
+        VM 
+
+                 VM  
+                 VM 
+
+                           18
+PIAnO  ( VM   )
+
+       >PIDOTECH>License Console
+       Add License Server 
+       IP 10.240.240.18   OK
+
+                                                                                                                                                              19
+ANSYS Mechanical CFD
+
+                                            ANSYS  
+                                             VM 
+
+                                                      VM  
+                                                      VM 
+
+                                                                20
+ANSYS Mechanical CFD
+
+       >ANSYS 2019 R3
+            
+
+                                                                                                                                                              21
+                              .
+
+   VM     SW      
+  .  SW VM       .
+
+                                                                                                         
+                                                                                                          HPC  
+
+                                                                                                                              
+                                                                                                                  010-5111-1096
+                                                                                                                  sajh99@tta.or.kr
+
+                                                                                                                                                      22
+
